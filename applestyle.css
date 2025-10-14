@@ -18,6 +18,10 @@
   justify-content: center;
   height: 60px;
 }
+nav {
+  display: flex;
+  gap: 24px;
+}
 .header-icons {
   height: 15.94px;
   width: 12.97px;
