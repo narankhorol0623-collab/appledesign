@@ -153,3 +153,62 @@ nav {
 .airpod {
   position: absolute;
 }
+.third {
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+    background-color: #f5f5f7;
+}
+.scroll-photos-2 {
+    display: flex;
+  /* overflow-x: scroll;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+  scroll-snap-type: x mandatory; */
+}
+.scroll-tags2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#airpodspic {
+    height: 500px;
+    width: 400px;
+}
+.cards2 {
+    background-color: white;
+    border-radius: 25px;
+    font-family: "Inter", sans-serif;
+    height: 500px;
+    width: 313px;
+}
+.basic-photos {
+    height: 230px;
+    width: 230px;
+    margin-top: 71px;
+    margin-left: 41.5px;
+}
+.price {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1d1d1fb8;
+}
+.airpod {
+    font-family: "Inter", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #000000;
+    
+}
+.dot {
+    height: 25px;
+    width: 25px;
+}
+.dots {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+
+}
