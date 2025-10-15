@@ -76,7 +76,6 @@ nav {
 }
 #lil-photos {
   display: flex;
-  justify-content: center;
   width: 100%;
   overflow-x: scroll;
   gap: 50px;
@@ -84,17 +83,25 @@ nav {
   font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 700;
-  align-content: center;
+  margin-left: 50px;
 }
+
+.lil-photos-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .header-photos {
   height: 78px;
   width: 120px;
 }
 .header-second {
   display: flex;
-  margin-top: 50px;
+  margin-top: 30px;
   font-family: "Inter", sans-serif;
   gap: 20px;
+  margin-bottom: 30px;
 }
 .gray-text {
   font-size: 24px;
@@ -110,23 +117,29 @@ nav {
   font-weight: 700;
   margin-left: 50px;
 }
+.cards1 {
+  height: 500px;
+  width: 480px;
+  display: flex;
+  position: relative;
+}
 .cards {
   display: flex;
   height: 500px;
-  width: 480px;
+  width: 400px;
   position: relative;
-  margin-top: 25px;
 }
 .picc {
-  border-radius: 35px;
+  border-radius: 15px;
 }
 
 .scroll-tags {
   display: flex;
   overflow-x: scroll;
-  justify-content: center;
   width: 100%;
-  gap: 50px;
+  gap: 25px;
+  margin-left: 50px;
+
   scroll-snap-type: x mandatory;
 }
 .card-text {
@@ -141,7 +154,7 @@ nav {
   color: #b64400;
 }
 .big-text {
-  font-size: 26px;
+  font-size: 18px;
   font-weight: 700;
   color: #1d1d1f;
 }
@@ -152,63 +165,172 @@ nav {
 }
 .airpod {
   position: absolute;
+  top: 30px;
+  left: 20px;
 }
 .third {
-    display: flex;
-    justify-content: start;
-    margin-top: 30px;
-    background-color: #f5f5f7;
+  display: flex;
+  justify-content: start;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #f5f5f7;
 }
 .scroll-photos-2 {
-    display: flex;
-  /* overflow-x: scroll;
-  justify-content: center;
+  display: flex;
+  margin-left: 50px;
+  overflow-x: scroll;
   width: 100%;
-  gap: 30px;
-  scroll-snap-type: x mandatory; */
+  gap: 25px;
+  scroll-snap-type: x mandatory;
 }
 .scroll-tags2 {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #airpodspic {
-    height: 500px;
-    width: 400px;
+  /* height: 500px;
+  width: 400px; */
+  /* margin: 0px; */
+  border-radius: 15px;
 }
+
 .cards2 {
-    background-color: white;
-    border-radius: 25px;
-    font-family: "Inter", sans-serif;
-    height: 500px;
-    width: 313px;
+  background-color: white;
+  border-radius: 15px;
+  font-family: "Inter", sans-serif;
+  height: 500px;
+  width: 313px;
+  position: relative;
 }
 .basic-photos {
-    height: 230px;
-    width: 230px;
-    margin-top: 71px;
-    margin-left: 41.5px;
+  height: 230px;
+  width: 230px;
+  margin-top: 71px;
+  margin-left: 41.5px;
 }
 .price {
-    font-family: "Inter", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #1d1d1fb8;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #1d1d1fb8;
+  position: absolute;
+  top: 450px;
+  left: 25px;
 }
 .airpod {
-    font-family: "Inter", sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    color: #000000;
-    
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #000000;
+  position: absolute;
+  top: 30px;
+  left: 20px;
 }
 .dot {
-    height: 25px;
-    width: 25px;
+  height: 25px;
+  width: 25px;
 }
 .dots {
-    display: flex;
-    gap: 5px;
-    justify-content: center;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.card-text2 {
+  position: absolute;
+  top: 360px;
+  left: 25px;
+}
+.trade-in {
+  display: flex;
+  gap: 15px;
+  margin-left: 50px;
+  overflow-x: scroll;
+  width: 100%;
+  gap: 25px;
+  scroll-snap-type: x mandatory;
+}
+.big-pic {
+  height: 500px;
+  width: 480px;
+  border-radius: 15px;
+}
+.giftbag,
+.hand2hand {
+  position: relative;
+}
+.giftbag-text1 {
+  position: absolute;
+  height: 130px;
+  width: 305px;
+  top: 50px;
+  z-index: 10;
+  left: 30px;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+.custom-tags {
+  background-color: #ffffff;
+  height: 240px;
+  width: 313px;
+  border-radius: 15px;
+}
+.four-texts1,
+.four-texts2 {
+  font-family: "Inter", sans-serif;
+  height: 500px;
+  width: 313px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.tom-text {
+  color: #1d1d1fe8;
+  font-size: 26px;
+  font-weight: 700;
+  height: 66px;
+  width: 275px;
+}
 
+.charlie {
+  color: #f5f5f7;
+}
+#jijkenn {
+  font-size: 17px;
+  font-weight: 400;
+  height: 41px;
+  width: 259px;
+  color: #1d1d1fa5;
+}
+.custom-tags {
+  display: flex;
+  gap: 15px;
+  position: relative;
+}
+.lil-button-text {
+  position: absolute;
+  width: 244px;
+  top: 82px;
+  left: 30px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.giftbag-text2 {
+  position: absolute;
+  height: 130px;
+  width: 305px;
+  top: 50px;
+  left: 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.trade-lil-text {
+  font-size: 12px;
+  font-weight: 700;
+  color: #6e6e73b1;
+  margin-bottom: 10px;
 }
