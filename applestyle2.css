@@ -287,7 +287,7 @@ nav {
   gap: 15px;
 }
 .tom-text {
-  color: #1d1d1fe8;
+  color: #1d1d1fc6;
   font-size: 26px;
   font-weight: 700;
   height: 66px;
@@ -333,4 +333,95 @@ nav {
   font-weight: 700;
   color: #6e6e73b1;
   margin-bottom: 10px;
+}
+
+.header-last {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  gap: 10px;
+  height: 66px;
+}
+.cards-full {
+  height: 500px;
+  width: 400px;
+  display: flex;
+  position: relative;
+}
+.last {
+  border-radius: 15px;
+}
+.scroll-images-bottom {
+  display: flex;
+  gap: 15px;
+  margin-left: 50px;
+  overflow-x: scroll;
+  width: 100%;
+  gap: 25px;
+  scroll-snap-type: x mandatory;
+}
+.cards-text2 {
+  position: absolute;
+  top: 31px;
+  left: 30px;
+  font-family: "Inter", sans-serif;
+}
+.last-liltext {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #6e6e73b1;
+  margin-bottom: 10px;
+}
+.tsgaan-text {
+  color: #ffffffc6;
+  font-size: 26px;
+  font-weight: 700;
+  height: 66px;
+  width: 275px;
+}
+.jijken-text {
+  font-size: 17px;
+  font-weight: 400;
+  color: #1d1d1f79;
+  position: absolute;
+  top: 118px;
+}
+.footer {
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+#footer-tags {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-family: "Inter", sans-serif;
+}
+#quick-text {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.buttons {
+  height: 40px;
+  width: 125px;
+  border-radius: 999px;
+  color: #1d1d1fb6;
+  border: solid, 1px #1d1d1f79;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  margin: 5px;
+}
+.duus {
+  height: 8px;
+  width: 8px;
+}
+.lilpic2-text {
+  position: absolute;
+  top: 109px;
+  left: 226px;
+}
+button:active {
+  background-color: #fffffff8;
 }

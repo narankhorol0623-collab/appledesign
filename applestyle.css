@@ -450,7 +450,6 @@ button:active {
   display: flex;
   scroll-snap-align: center;
   gap: 40px;
-  position: relative;
 }
 #photos {
   height: 236px;
@@ -482,6 +481,35 @@ button:active {
   justify-content: center;
   align-items: center;
 }
+.image {
+  position: relative;
+}
 .lilpic-text {
   position: absolute;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  gap: 180px;
+  top: 198px;
+  left: 15px;
+}
+.icon-footer {
+  height: 14px;
+  width: 78px;
+}
+.icon-music {
+  height: 14px;
+  width: 59px;
+  position: absolute;
+}
+.lilpic2-text {
+  position: absolute;
+  top: 109px;
+  left: 226px;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
 }
